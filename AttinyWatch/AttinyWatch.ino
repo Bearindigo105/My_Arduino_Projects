@@ -3,10 +3,10 @@
  * This is the software for an Attiny85
  * project, a pocket watch!
  *                   
- * Reset  (N/C)  1 -+-U-+-  VCC    (3-5v)
- * I/O 4  (N/C)  2 -|   |-  I/O 2  (SCL)
- * I/O 3  (N/C)  3 -|   |-  I/O 1  (Button)
- * Ground (GND)  4 -+---+-  I/O 0  (SDA)
+ * Reset  (N/C)  1 --+--U--+--  VCC    (3-5v)
+ * I/O 4  (N/C)  2 --|     |--  I/O 2  (SCL of SSD1306 Oled)
+ * I/O 3  (N/C)  3 --|     |--  I/O 1  (Button)
+ * Ground (GND)  4 --+-----+--  I/O 0  (SDA of SSD1306 Oled)
  * 
  * This work is licensed under the 
  * Creative Commons Attribution 4.0 International License.
